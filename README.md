@@ -40,12 +40,13 @@
 
 #### Файлы:
 
-1. Первое задание – E_learning_Zadanie_1
-2. Второе задание – E_learning_Zadanie_2 
-3. Третье задание – E_learning_Zadanie_3
-4. Четвертое задание – E_learning_Zadanie_4
-5. Пятое задание – E_learning_Zadanie_5
-6. Шестое задание – E_learning_Zadanie_6
+1. Входной файл с описанием заданий – Code_Python_e_learning
+2. Первое задание – E_learning_Zadanie_1
+3. Второе задание – E_learning_Zadanie_2 
+4. Третье задание – E_learning_Zadanie_3
+5. Четвертое задание – E_learning_Zadanie_4
+6. Пятое задание – E_learning_Zadanie_5
+7. Шестое задание – E_learning_Zadanie_6
 
 --- 
 
