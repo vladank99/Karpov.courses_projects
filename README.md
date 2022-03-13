@@ -41,12 +41,13 @@
 #### Файлы:
 
 1. Входной файл с описанием заданий – Code_Python_e_learning
-2. Первое задание – E_learning_Zadanie_1
-3. Второе задание – E_learning_Zadanie_2 
-4. Третье задание – E_learning_Zadanie_3
-5. Четвертое задание – E_learning_Zadanie_4
-6. Пятое задание – E_learning_Zadanie_5
-7. Шестое задание – E_learning_Zadanie_6
+2. Зип-файл с дата-сетами: Data_sets_E-learning.zip
+3. Первое задание – E_learning_Zadanie_1
+4. Второе задание – E_learning_Zadanie_2 
+5. Третье задание – E_learning_Zadanie_3
+6. Четвертое задание – E_learning_Zadanie_4
+7. Пятое задание – E_learning_Zadanie_5
+8. Шестое задание – E_learning_Zadanie_6
 
 --- 
 
