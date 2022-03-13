@@ -1,4 +1,4 @@
-# E-Learning
+# E-Learning project
 Данный pet project был выполнен в рамках курса Аналитик Данных (karpov.courses).
 
 --- 
