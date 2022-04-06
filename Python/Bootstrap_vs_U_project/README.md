@@ -2,6 +2,7 @@
 Студент: Анкушев Владислав
 
 ---
+<a href="https://github.com/vladank99/Karpov.courses_projects/blob/main/Python/Bootstrap_vs_U_project/Bootstrap_vs_U_project_code.ipynb"> **Решение** </a>
 
 ### Описание эксперимента
 Перед вами таблица, где числовая переменная – непрерывная.  
