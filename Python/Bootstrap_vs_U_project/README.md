@@ -13,6 +13,7 @@
 - **value** – значения метрики
 - **experimentVariant** – Вариант теста (Control – контроль, Treatment – тест)
 
+<br>
 
 ### Задача
 
