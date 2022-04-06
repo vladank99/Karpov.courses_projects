@@ -34,7 +34,7 @@
 
 #### Инструменты:
 
-- Python: Jupyter-notebook 
-- SQL: Clickhouse
-- Tableau: Tableau public
+- **Python**: Jupyter-notebook 
+- **SQL**: Clickhouse
+- **Tableau**: Tableau public
 
