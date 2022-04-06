@@ -13,7 +13,7 @@
 - **version** – версия приложения
 - **purchase** – факт покупки
 
-### Решение задания 
+###  <a href="https://github.com/vladank99/E-Learning/blob/main/A-A_test_project/A-A_test_project_code.ipynb"> Решение задания </a>
 
 ### Краткое описание действий:
 1. Провести A/A тест
