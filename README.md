@@ -5,7 +5,7 @@
 
 ### Краткое описание проектов:
 
-### Python
+### <a href="https://github.com/vladank99/Karpov.courses_projects/tree/main/Python"> Python </a>
 
 - <a href="https://github.com/vladank99/Karpov.courses_projects/tree/main/E-learning_project"> **E-learning_project**: </a>промежуточный проект по теме онлайн обучения.   
       Использовались: эксплораторный, когортный и RFM анализ
