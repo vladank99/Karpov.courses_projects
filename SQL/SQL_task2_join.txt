@@ -1,0 +1,22 @@
+SELECT 
+    installs.Source as Source,
+    joined_tables.UserID as UserID,
+    COUNT(joined_tables.Rub) as Numchecks
+    FROM installs as installs 
+    JOIN(
+SELECT 
+    checks.Rub, 
+    checks.UserID,
+    devices.DeviceID
+FROM checks
+    JOIN(
+    SELECT 
+        devices.UserID, 
+        devices.DeviceID
+    FROM devices) as devices
+    USING UserID) as joined_tables
+    ON installs.DeviceID = joined_tables.DeviceID
+    GROUP BY Source, UserID
+    ORDER BY Numchecks DESC
+
+limit 100
