@@ -1,0 +1,8 @@
+---Задание №8: конверсию из инсталла в просмотр с разбивкой по платформе инсталла 
+SELECT 
+    l.Platform AS Platform,
+    COUNT(DISTINCT r.DeviceID) / COUNT(DISTINCT l.DeviceID) as conversion
+FROM installs as l
+LEFT JOIN events as r 
+    ON l.DeviceID = r.DeviceID
+    GROUP BY Platform
