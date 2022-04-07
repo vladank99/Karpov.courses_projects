@@ -1,3 +1,4 @@
+--- Теперь выясним, сколько всего уникальных юзеров что-то купили в нашем приложении.
 SELECT 
     installs.Source as Source,
     COUNT(DISTINCT joined_tables.UserID) as UserID
