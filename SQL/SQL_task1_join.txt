@@ -1,4 +1,4 @@
-
+--- 
 SELECT 
     events.AppPlatform as Platform,
     events.events as events, 
