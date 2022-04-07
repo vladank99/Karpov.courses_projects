@@ -1,0 +1,16 @@
+
+SELECT 
+    events.AppPlatform as Platform,
+    events.events as events, 
+    events.EventDate as EventDate,
+    events.DeviceID as DeviceID,
+    UserID
+FROM events
+    JOIN (
+    SELECT devices.UserID as UserID,
+    devices.DeviceID as DeviceID
+    FROM devices
+    ) as devices 
+    USING DeviceID
+    ORDER BY DeviceID DESC
+limit 1
