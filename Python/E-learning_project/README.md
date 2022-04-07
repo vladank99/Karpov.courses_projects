@@ -40,14 +40,13 @@
 
 #### Файлы:
 
-1. Входной файл с описанием заданий – <a href="https://github.com/vladank99/E-Learning/blob/main/Code_Python_e_learning.ipynb">Code_Python_e_learning</a> 
-2. Зип-файл с дата-сетами – <a href="https://github.com/vladank99/E-Learning/blob/main/Data_sets_E-learning.zip">Data_sets_E-learning.zip</a>
-3. Первое задание – <a href="https://github.com/vladank99/E-Learning/blob/main/E_learning_Zadanie_1.ipynb">E_learning_Zadanie_1</a>
-5. Второе задание – <a href="https://github.com/vladank99/E-Learning/blob/main/E_learning_Zadanie_2.ipynb">E_learning_Zadanie_2</a> 
-6. Третье задание – <a href="https://github.com/vladank99/E-Learning/blob/main/E_learning_Zadanie_3.ipynb">E_learning_Zadanie_3</a> 
-7. Четвертое задание – <a href="https://github.com/vladank99/E-Learning/blob/main/E_learning_Zadanie_4.ipynb">E_learning_Zadanie_4</a> 
-8. Пятое задание – <a href="https://github.com/vladank99/E-Learning/blob/main/E_learning_Zadanie_5.ipynb">E_learning_Zadanie_5</a> 
-9. Шестое задание – <a href="https://github.com/vladank99/E-Learning/blob/main/E_learning_Zadanie_6.ipynb">E_learning_Zadanie_6</a> 
+1. Входной файл с описанием заданий – <a href="https://github.com/vladank99/Karpov.courses_projects/blob/main/Python/E-learning_project/Code_Python_e_learning.ipynb">Code_Python_e_learning</a> 
+2. Первое задание – <a href="https://github.com/vladank99/E-Learning/blob/main/Python/E learning_project/E_learning_Zadanie_1.ipynb">E_learning_Zadanie_1</a>
+3. Второе задание – <a href="https://github.com/vladank99/E-Learning/blob/main/Python/E-learning_project/E_learning_Zadanie_2.ipynb">E_learning_Zadanie_2</a> 
+4. Третье задание – <a href="https://github.com/vladank99/E-Learning/blob/main/Python/E-learning_project/E_learning_Zadanie_3.ipynb">E_learning_Zadanie_3</a> 
+6. Четвертое задание – <a href="https://github.com/vladank99/E-Learning/blob/main/Python/E-learning_project/E_learning_Zadanie_4.ipynb">E_learning_Zadanie_4</a> 
+7. Пятое задание – <a href="https://github.com/vladank99/E-Learning/blob/main/Python/E-learning_project/E_learning_Zadanie_5.ipynb">E_learning_Zadanie_5</a> 
+8. Шестое задание – <a href="https://github.com/vladank99/E-Learning/blob/main/Python/E-learning_project/E_learning_Zadanie_6.ipynb">E_learning_Zadanie_6</a> 
 
 --- 
 
