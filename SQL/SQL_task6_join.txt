@@ -1,0 +1,17 @@
+---Проверим, сколько товаров (events) в среднем просматривают пользователи с разных платформ (Platform), 
+--- и пришедшие из разных источников  (Source)
+SELECT 
+    AVG(l.events) as events,
+    l.Platform as Platform,
+    r.Source as Source
+FROM (
+    SELECT
+    AppPlatform as Platform,
+    events as events
+    FROM events) as l
+    JOIN installs as r
+    USING Platform
+GROUP BY 
+   Source, Platform
+ORDER BY events DESC
+limit 100

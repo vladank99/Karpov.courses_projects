@@ -1,0 +1,15 @@
+--- Выведите идентификаторы устройств пользователей, которые совершили как минимум одну покупку за последний месяц (октябрь 2019)
+SELECT
+    r.DeviceID as DeviceID
+FROM ( 
+    SELECT
+    UserID,
+    CAST (BuyDate as date) AS date_type,
+    toStartOfMonth(date_type) AS month
+    FROM checks
+    ) as l
+    JOIN devices as r
+    USING UserID
+WHERE month = '2019-10-01'
+ORDER BY DeviceID ASC
+limit 1

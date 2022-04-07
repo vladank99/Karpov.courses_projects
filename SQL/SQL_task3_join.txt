@@ -1,0 +1,20 @@
+SELECT 
+    installs.Source as Source,
+    COUNT(DISTINCT joined_tables.UserID) as UserID
+    FROM installs as installs 
+    JOIN(
+SELECT 
+    checks.UserID,
+    devices.DeviceID
+FROM checks
+    JOIN(
+    SELECT 
+        devices.UserID, 
+        devices.DeviceID
+    FROM devices) as devices
+    USING UserID) as joined_tables
+    ON installs.DeviceID = joined_tables.DeviceID
+    GROUP BY Source
+    HAVING Source = 'Source_7'
+
+limit 100

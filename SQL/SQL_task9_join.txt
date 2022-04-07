@@ -1,0 +1,9 @@
+---Выведите 10 уникальных DeviceID, которые присутствуют в таблице events, но отсутствуют в installs, 
+-- отсортировав их в порядке убывания
+SELECT 
+    DeviceID as DeviceID
+    FROM events
+LEFT ANTI JOIN installs 
+    ON events.DeviceID = installs.DeviceID
+ORDER BY DeviceID DESC
+limit 10
