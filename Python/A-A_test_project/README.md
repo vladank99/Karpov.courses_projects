@@ -1,6 +1,6 @@
 ## ПРОЕКТ – A/A ТЕСТЫ И ПРОВЕРКА КАЧЕСТВА СИСТЕМ СПЛИТОВАНИЯ
 
-###  <a href="https://github.com/vladank99/E-Learning/blob/main/A-A_test_project/A-A_test_project_code.ipynb"> Решение задания </a>
+###  <a href="https://github.com/vladank99/Karpov.courses_projects/blob/main/Python/A-A_test_project/%20A-A_test_project_code.ipynb"> Решение задания </a>
 
 ### Описание задания
 - А/А-тестирование мобильного приложения.   
