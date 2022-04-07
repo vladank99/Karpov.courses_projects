@@ -34,44 +34,44 @@
 
 --- 
 ### Описание заданий: 
-- **Задание №1** | <a href="https://github.com/vladank99/Karpov.courses_projects/blob/main/SQL/Join_project/SQL_task1_join.txt"> **Решение** </a>    
+- **Задание №1** | <a href="https://github.com/vladank99/Karpov.courses_projects/blob/main/SQL/Join_project/SQL_task1_join.txt"> **Решение** </a>      
       У пользователя может быть два идентификатора – UserID и DeviceID. В таблице checks есть только UserID, в остальных – только DeviceID. Во   вспомогательной таблице devices есть и UserID, и DeviceID.   
       Давайте с помощью JOIN дополним таблицу events (left) данными о UserID пользователей из таблицы devices (right).   
       Для некоторых DeviceID не будет пары UserID из таблицы devices – подумайте, какой вид JOIN подойдет, чтобы не потерять те строки, где DeviceID есть в events, но нет в devices.   
       Укажите UserID из первой строки результирующей таблицы, используя сортировку по убыванию по полю DeviceID.
 
 
-- **Задание №2** | <a href="https://github.com/vladank99/Karpov.courses_projects/blob/main/SQL/Join_project/SQL_task2_join.txt"> **Решение** </a>   
+- **Задание №2** | <a href="https://github.com/vladank99/Karpov.courses_projects/blob/main/SQL/Join_project/SQL_task2_join.txt"> **Решение** </a>     
       Давайте проверим, пользователи пришедшие из какого источника совершили наибольшее число покупок. В качестве ответа выберите название Source, юзеры 
       которого совершили больше всего покупок.
     
 
-- **Задание №3** | <a href="https://github.com/vladank99/Karpov.courses_projects/blob/main/SQL/Join_project/SQL_task3_join.txt"> **Решение** </a> 
+- **Задание №3** | <a href="https://github.com/vladank99/Karpov.courses_projects/blob/main/SQL/Join_project/SQL_task3_join.txt"> **Решение** </a>    
       Теперь выясним, сколько всего уникальных юзеров что-то купили в нашем приложении.   
       Объедините нужные таблицы, посчитайте число уникальных UserID для каждого источника (Source), и в качестве ответа укажите число пользователей, пришедших из Source_7.
     
-- **Задание №4** | <a href="https://github.com/vladank99/Karpov.courses_projects/blob/main/SQL/Join_project/SQL_task4_join.txt"> **Решение** </a> 
+- **Задание №4** | <a href="https://github.com/vladank99/Karpov.courses_projects/blob/main/SQL/Join_project/SQL_task4_join.txt"> **Решение** </a>   
       Самое время посмотреть на общую выручку, а также минимальный, максимальный и средний чек. Рассчитайте нужные показатели.
     
-- **Задание №5** | <a href="https://github.com/vladank99/Karpov.courses_projects/blob/main/SQL/Join_project/SQL_task5_join.txt"> **Решение** </a>   
+- **Задание №5** | <a href="https://github.com/vladank99/Karpov.courses_projects/blob/main/SQL/Join_project/SQL_task5_join.txt"> **Решение** </a>    
       Выведите идентификаторы устройств пользователей, которые совершили как минимум одну покупку за последний месяц (октябрь 2019).   
       Используйте сортировку по возрастанию DeviceID и укажите минимальное значение.
     
-- **Задание №6** | <a href="https://github.com/vladank99/Karpov.courses_projects/blob/main/SQL/Join_project/SQL_task6_join.txt"> **Решение** </a>    
+- **Задание №6** | <a href="https://github.com/vladank99/Karpov.courses_projects/blob/main/SQL/Join_project/SQL_task6_join.txt"> **Решение** </a>     
       Проверим, сколько товаров (events) в среднем просматривают пользователи с разных платформ (Platform), и пришедшие из разных источников (Source).    
       Для этого объедините таблицы events и installs, и посчитайте, сколько просмотров в среднем приходится на каждую пару платформа-канал привлечения.   
       Отсортируйте полученную табличку по убыванию среднего числа просмотров.    
       В качестве ответа укажите платформу и источник, пользователи которого в среднем просматривали товары бóльшее число раз.
     
-- **Задание №7** | <a href="https://github.com/vladank99/Karpov.courses_projects/blob/main/SQL/Join_project/SQL_task7_join.txt"> **Решение** </a>   
+- **Задание №7** | <a href="https://github.com/vladank99/Karpov.courses_projects/blob/main/SQL/Join_project/SQL_task7_join.txt"> **Решение** </a>    
       Давайте посчитаем число уникальных DeviceID в инсталлах, для которых присутствуют просмотры в таблице events с разбивкой по платформам (поле
       Platform). 
     
-- **Задание №8** | <a href="https://github.com/vladank99/Karpov.courses_projects/blob/main/SQL/Join_project/SQL_task8_join.txt"> **Решение** </a>   
+- **Задание №8** | <a href="https://github.com/vladank99/Karpov.courses_projects/blob/main/SQL/Join_project/SQL_task8_join.txt"> **Решение** </a>    
       Давайте теперь посчитаем конверсию из инсталла в просмотр с разбивкой по платформе инсталла – в данном случае это доля DeviceID, для которых есть
       просмотры, от всех DeviceID в инсталлах. 
     
-- **Задание №9** | <a href="https://github.com/vladank99/Karpov.courses_projects/blob/main/SQL/Join_project/SQL_task9_join.txt"> **Решение** </a> 
+- **Задание №9** | <a href="https://github.com/vladank99/Karpov.courses_projects/blob/main/SQL/Join_project/SQL_task9_join.txt"> **Решение** </a>   
       Представим, что в логирование DeviceID в событиях закралась ошибка - часть ID была записана в базу некорректно. Это привело к тому, что в таблице с
       событиями появились DeviceID, для которых нет инсталлов.   
       Нам надо отобрать примеры DeviceID из таблицы event, которых нет в таблице installs, чтобы отправить их команде разработчиков на исправление. 
