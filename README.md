@@ -29,16 +29,9 @@
 
 ---
 
-### Tableau
-
-Модуль только начался. Проекты будут дополняться
-
----
-
 
 #### Инструменты:
 
 - **Python**: Jupyter-notebook 
 - **SQL**: Clickhouse
-- **Tableau**: Tableau public
 
