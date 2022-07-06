@@ -18,7 +18,7 @@
       Использовались: boostrap средних и медиан, boostrap доверительные интервалы, u-test
 
 - <a href="https://htmlpreview.github.io/?https://github.com/vladank99/Karpov.courses_projects/blob/main/Python/final_E_learning_project_Ankushev.html"> **Final_E_learning_project_Ankushev**: </a>финальный проект по теме онлайн-обучения    
-      Использовались: python -  Хи-тест, power-analysis, бустрапирование средних; SQL (Clickhouse, Postgresql) – CTE, джоины, оконные функции
+      Использовались: хи-тест, power-analysis, бустрапирование средних (python); CTE, джоины, оконные функции (SQL; Clickhouse, Postgresql)
       
 ---
 
